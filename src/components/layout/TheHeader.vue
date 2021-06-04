@@ -3,7 +3,7 @@
     <nav class="navbar navbar-dark navbar-expand-md bg-dark">
       <div class="container-fluid">
         <h1 class="navbar-brand" style="letter-spacing: 3px">
-          <router-link class="nav-link fs-2 fw-bolder" to="/">Movie Helper</router-link>
+          <router-link class="nav-link fs-2 fw-bolder" to="/">Movie Recommendations</router-link>
         </h1>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mainNavbar">
           <span class="navbar-toggler-icon"></span>
