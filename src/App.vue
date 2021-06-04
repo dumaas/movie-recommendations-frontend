@@ -38,6 +38,7 @@
         },
         immediate: true
       },
+    },
   }
 </script>
 
