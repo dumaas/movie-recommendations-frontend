@@ -12,7 +12,7 @@ let axiosMovies = axios.create({
 })
 
 let axiosDjango = axios.create({
-  baseURL: 'http://localhost:8000/',
+  baseURL: 'https://movie-recommendations-api.herokuapp.com/',
 })
 
 export {
