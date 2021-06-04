@@ -33,7 +33,7 @@
         }
       },
       '$route': {
-        handler: (to, from) => {
+        handler: function(to) {
         document.title = to.meta.title || 'Movie Recommendations'
         },
         immediate: true
