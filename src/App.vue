@@ -32,7 +32,12 @@
           this.$router.replace('/movies')
         }
       },
-    },
+      '$route': {
+        handler: (to, from) => {
+        document.title = to.meta.title || 'Movie Recommendations'
+        },
+        immediate: true
+      },
   }
 </script>
 
