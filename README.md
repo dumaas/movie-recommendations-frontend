@@ -1,24 +1,25 @@
-# frontend
+# Movie Recommendations Frontend
+[View it in your browser](https://movie-recommendations-api.netlify.app/)
 
-## Project setup
-```
-npm install
-```
+## Requirements
+1. [Docker](https://docs.docker.com/install/)
+2. [Docker Compose](https://docs.docker.com/compose/install/)
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
+## How to run it?
 
-### Compiles and minifies for production
+1. Clone the repository:
 ```
-npm run build
+git clone https://github.com/dumaas/movie-recommendations-frontend.git
 ```
 
-### Lints and fixes files
+2. Go to the cloned directory:
 ```
-npm run lint
+cd movie-recommendations-api
 ```
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+3. Build and run the application:
+```
+docker-compose up -d --build
+```
+
+4. Visit the webapp at [localhost:8080](http://localhost:8000) and enjoy!
