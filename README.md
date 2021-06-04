@@ -1,4 +1,7 @@
 # Movie Recommendations Frontend
+
+![screenshot](https://github.com/dumaas/movie-recommendations-frontend/blob/d37fb8118a36cf754579cbae19cec29dd0230f8b/frontend-screenshot.png?raw=true)
+
 [View it in your browser](https://movie-recommendations-api.netlify.app/)
 
 ## Requirements
